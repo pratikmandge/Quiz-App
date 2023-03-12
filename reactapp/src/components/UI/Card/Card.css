@@ -1,0 +1,55 @@
+.Card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #9F5F80;
+    margin: 5%;
+    padding: 20px;
+    max-width: 600px;
+    margin-left: 27%;
+    margin-right: 20%;
+}
+
+.options_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* border: 2px solid red; */
+    padding: 10px;
+}
+
+.options_container Button{
+    border: none;
+    background-color: #FFBA93;
+    height: 40px;
+    max-width: 200px;
+    border-radius: 5px;
+}
+
+
+
+
+
+.Results {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.Results h3 {
+    margin-top: 0;
+}
+
+.Results p {
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.Results button {
+    margin-left: auto;
+    size: 10px;
+}
